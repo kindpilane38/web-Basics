@@ -1,0 +1,74 @@
+body {
+  font-family: Cambria, Cochin, Georgia;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+main {
+  margin: 12px 30px;
+}
+h1 {
+  color: #242323;
+  font-size: 62px;
+  font-family: Impact, sans-serif;
+  margin: 20px;
+  font-weight: 200;
+  margin-bottom: 0px;
+}
+header {
+  margin-bottom: 30px;
+}
+header > p {
+  margin: 0;
+  padding-left: 30px;
+}
+.sidebar {
+  width: 55%;
+  padding-top: 25px;
+  padding-left: 10px;
+  margin: 10px;
+  background-color: #242323;
+  color: white;
+  border-radius: 16px;
+}
+
+.contain {
+  max-width: 850px;
+  margin: 30px auto;
+  display: flex;
+  background-color: whitesmoke;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.13);
+}
+
+div > h4 {
+  font-size: larger;
+}
+h4,
+h3 {
+  display: inline;
+  font-size: 16px;
+}
+aside div {
+  padding: 10px;
+}
+.date {
+  font-weight: bold;
+  float: right;
+  margin-right: 20px;
+}
+ul {
+  padding-left: 20px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.contact,
+.edu > p {
+  font-size: 14px;
+}
+.about > p {
+  font-size: 16px;
+}
+main > div {
+  max-width: 850px;
+}

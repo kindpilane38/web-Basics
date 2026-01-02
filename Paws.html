@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Paws</title>
+  </head>
+  <body>
+    <main>
+      <h1>Paws</h1>
+      <section>
+        <h3>Shots~</h3>
+        <p>
+          Everyone loves
+          <a
+            href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg"
+            >cute cats</a
+          >
+          online!
+        </p>
+
+        <p>
+          See more
+          <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>
+          in our gallery.
+        </p>
+        <a href="https://freecatphotoapp.com"
+          ><img
+            src="https://i.pinimg.com/1200x/2d/f6/db/2df6dbe8ff3e019bc25c43617ba5150d.jpg"
+            alt="A cute orange cat with doe eyes."
+        /></a>
+        <p>
+          <a href="https://unsplash.com/s/photos/cute-cat">#CuteCatWorld</a>
+        </p>
+      </section>
+      <section>
+        <h3>Cat-alogue</h3>
+        <h3>Meow must-haves:</h3>
+        <ul>
+          <li>boxes</li>
+          <li>laser pointers</li>
+          <li>fish</li>
+        </ul>
+        <figure>
+          <img
+            src="https://i.pinimg.com/1200x/a8/ac/21/a8ac21fd838e87e55e23589a826ecfff.jpg"
+            alt="salmon on a plate."
+          />
+          <figcaption>Cats <em>love</em> fish.</figcaption>
+        </figure>
+        <h3>3 Things Cats Totally Hate:</h3>
+        <ol>
+          <li>bath</li>
+          <li>thunder</li>
+          <li>attention</li>
+        </ol>
+        <figure>
+          <img
+            src="https://i.pinimg.com/736x/21/4e/11/214e1169a7ab372824599b520f385b10.jpg"
+            alt="Five cats looking around a field."
+          />
+          <figcaption>Cats <strong>hate</strong> bath.</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h3>Cat Form</h3>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label
+              ><input
+                id="indoor"
+                type="radio"
+                name="indoor-outdoor"
+                value="indoor"
+                checked
+              />
+              Indoor</label
+            >
+            <label
+              ><input
+                id="outdoor"
+                type="radio"
+                name="indoor-outdoor"
+                value="outdoor"
+              />
+              Outdoor</label
+            >
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input
+              id="loving"
+              type="checkbox"
+              name="personality"
+              value="loving"
+              checked
+            />
+            <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy" />
+            <label for="lazy">Lazy</label>
+            <input
+              id="energetic"
+              type="checkbox"
+              name="personality"
+              value="energetic"
+            />
+            <label for="energetic">Energetic</label>
+          </fieldset>
+          <br />
+
+          <center>
+            <input
+              type="text"
+              name="catphotourl"
+              placeholder="cat photo URL"
+              required
+            />
+            <!-- <br> -->
+            <button type="submit">Submit</button>
+          </center>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>No Copyright - dawnDream 🩵</p>
+    </footer>
+  </body>
+</html>
