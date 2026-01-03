@@ -1,4 +1,4 @@
-# Web Basics – Week 1
+# Web Basics
 
 This repository contains basic HTML and CSS pages created as part of learning web development fundamentals.
 
